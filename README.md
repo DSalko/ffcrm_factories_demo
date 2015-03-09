@@ -1,2 +1,2 @@
 # ffcrm_factories_demo
-How to use factories from FF CRM engine
+How to use factories from FatFree CRM engine
