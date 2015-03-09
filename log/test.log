@@ -1,0 +1,473 @@
+Connecting to database specified by database.yml
+Creating scope :except. Overwriting existing method User.except.
+  [1m[36mFieldGroup Load (1.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Account' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Campaign' ORDER BY position
+  [1m[36mFieldGroup Load (0.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Contact' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Lead' ORDER BY position
+  [1m[36mFieldGroup Load (0.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Opportunity' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Task' ORDER BY position
+  [1m[36mCustomField Load (1.3ms)[0m  [1mSELECT "fields".* FROM "fields" WHERE "fields"."type" IN ('CustomField', 'CustomFieldPair', 'CustomFieldDatePair', 'CustomFieldDatetimePair') ORDER BY "fields"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Creating scope :except. Overwriting existing method User.except.
+  [1m[36mFieldGroup Load (1.0ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Account' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.4ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Campaign' ORDER BY position
+  [1m[36mFieldGroup Load (0.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Contact' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.4ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Lead' ORDER BY position
+  [1m[36mFieldGroup Load (0.4ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Opportunity' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Task' ORDER BY position
+  [1m[36mCustomField Load (1.1ms)[0m  [1mSELECT "fields".* FROM "fields" WHERE "fields"."type" IN ('CustomField', 'CustomFieldPair', 'CustomFieldDatePair', 'CustomFieldDatetimePair') ORDER BY "fields"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Creating scope :except. Overwriting existing method User.except.
+  [1m[36mFieldGroup Load (0.9ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Account' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Campaign' ORDER BY position
+  [1m[36mFieldGroup Load (0.4ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Contact' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.4ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Lead' ORDER BY position
+  [1m[36mFieldGroup Load (0.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Opportunity' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Task' ORDER BY position
+  [1m[36mCustomField Load (1.1ms)[0m  [1mSELECT "fields".* FROM "fields" WHERE "fields"."type" IN ('CustomField', 'CustomFieldPair', 'CustomFieldDatePair', 'CustomFieldDatetimePair') ORDER BY "fields"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Creating scope :except. Overwriting existing method User.except.
+  [1m[36mFieldGroup Load (0.9ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Account' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Campaign' ORDER BY position
+  [1m[36mFieldGroup Load (0.4ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Contact' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Lead' ORDER BY position
+  [1m[36mFieldGroup Load (0.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Opportunity' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Task' ORDER BY position
+  [1m[36mCustomField Load (1.7ms)[0m  [1mSELECT "fields".* FROM "fields" WHERE "fields"."type" IN ('CustomField', 'CustomFieldPair', 'CustomFieldDatePair', 'CustomFieldDatetimePair') ORDER BY "fields"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.9ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'lenna@hudson.name' LIMIT 1
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'johnny1' LIMIT 1[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."perishable_token" = '985b5d6e7280abf195fc' LIMIT 1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."persistence_token" = 'b85f46a02c105a1aa3a0a8f5413981de195996ef5f1c8d630d76f14600bc61ffe3750c9e96ab601a67a680ddd27ba93222280bf4b2dc9e1ea9a860e615f7a87a' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."single_access_token" = 'WxxD4J6uMGSuUVuwfXZM' LIMIT 1
+  [1m[36mSQL (2.6ms)[0m  [1mINSERT INTO "users" ("admin", "aim", "alt_email", "company", "created_at", "current_login_at", "current_login_ip", "deleted_at", "email", "first_name", "google", "last_login_at", "last_login_ip", "last_name", "last_request_at", "login_count", "mobile", "password_hash", "password_salt", "perishable_token", "persistence_token", "phone", "single_access_token", "skype", "suspended_at", "title", "updated_at", "username", "yahoo") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29) RETURNING "id"[0m  [["admin", false], ["aim", nil], ["alt_email", "annabel@hackettswift.biz"], ["company", "Abbott and Sons"], ["created_at", Mon, 09 Mar 2015 11:36:27 UTC +00:00], ["current_login_at", Mon, 09 Mar 2015 14:36:27 UTC +00:00], ["current_login_ip", "127.0.0.1"], ["deleted_at", nil], ["email", "lenna@hudson.name"], ["first_name", "Kaia"], ["google", nil], ["last_login_at", Mon, 09 Mar 2015 13:36:27 UTC +00:00], ["last_login_ip", "127.0.0.1"], ["last_name", "Lemke"], ["last_request_at", Mon, 09 Mar 2015 15:36:27 UTC +00:00], ["login_count", 33], ["mobile", "772-787-3321"], ["password_hash", "eaa779318db3bb8f0944437801478c84cc19a63978ec4879987fc24d859e2e3e683f55eb684a3fe233e54c03c51c7fd461e7c60ff07cf5e02fb4612ece756fdf"], ["password_salt", "JlETYNCGuU3gJ3L3gtQ5"], ["perishable_token", "f74UdTBzNVVgG0V7DHW"], ["persistence_token", "b85f46a02c105a1aa3a0a8f5413981de195996ef5f1c8d630d76f14600bc61ffe3750c9e96ab601a67a680ddd27ba93222280bf4b2dc9e1ea9a860e615f7a87a"], ["phone", "(384)913-8278"], ["single_access_token", "WxxD4J6uMGSuUVuwfXZM"], ["skype", nil], ["suspended_at", nil], ["title", "Director"], ["updated_at", Mon, 09 Mar 2015 12:36:27 UTC +00:00], ["username", "johnny1"], ["yahoo", nil]]
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "versions" ("created_at", "event", "item_id", "item_type", "object", "object_changes", "related_id", "related_type", "whodunnit") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["created_at", Mon, 09 Mar 2015 16:36:27 UTC +00:00], ["event", "create"], ["item_id", 1], ["item_type", "User"], ["object", nil], ["object_changes", "--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nusername:\n- ''\n- johnny1\nemail:\n- ''\n- lenna@hudson.name\nfirst_name:\n- \n- Kaia\nlast_name:\n- \n- Lemke\ntitle:\n- \n- Director\ncompany:\n- \n- Abbott and Sons\nalt_email:\n- \n- annabel@hackettswift.biz\nphone:\n- \n- \"(384)913-8278\"\nmobile:\n- \n- 772-787-3321\npassword_hash:\n- ''\n- eaa779318db3bb8f0944437801478c84cc19a63978ec4879987fc24d859e2e3e683f55eb684a3fe233e54c03c51c7fd461e7c60ff07cf5e02fb4612ece756fdf\npassword_salt:\n- ''\n- JlETYNCGuU3gJ3L3gtQ5\npersistence_token:\n- ''\n- b85f46a02c105a1aa3a0a8f5413981de195996ef5f1c8d630d76f14600bc61ffe3750c9e96ab601a67a680ddd27ba93222280bf4b2dc9e1ea9a860e615f7a87a\ncurrent_login_at:\n- \n- 2015-03-09 14:36:27.660497705 Z\nlast_login_at:\n- \n- 2015-03-09 13:36:27.660578957 Z\nlast_login_ip:\n- \n- 127.0.0.1\ncurrent_login_ip:\n- \n- 127.0.0.1\nlogin_count:\n- 0\n- 33\nupdated_at:\n- \n- 2015-03-09 12:36:27.660863218 Z\ncreated_at:\n- \n- 2015-03-09 11:36:27.660944480 Z\nsingle_access_token:\n- \n- WxxD4J6uMGSuUVuwfXZM\nid:\n- \n- 1\n"], ["related_id", nil], ["related_type", nil], ["whodunnit", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2015-03-09 18:36:27 +0200
+Processing by HomeController#index as HTML
+Redirected to http://www.example.com/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 4.4ms (ActiveRecord: 0.0ms)
+Started GET "/login" for 127.0.0.1 at 2015-03-09 18:36:27 +0200
+Processing by AuthenticationsController#new as HTML
+  [1m[35mSetting Load (0.7ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1
+  [1m[36mSetting Load (0.4ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'user_signup' LIMIT 1[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/authentications/new.html.haml within layouts/application (10.6ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/layouts/_header.html.haml (4.5ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/layouts/_about.html.haml (4.7ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/layouts/_footer.html.haml (7.5ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/layouts/_tabless.html.haml (9.8ms)
+  [1m[35mSetting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'base_url' LIMIT 1
+Completed 200 OK in 54.9ms (Views: 49.9ms | ActiveRecord: 1.6ms)
+Started POST "/authentication" for 127.0.0.1 at 2015-03-09 18:36:27 +0200
+Processing by AuthenticationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authentication"=>{"username"=>"johnny1", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mSetting Load (0.4ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1[0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'johnny1' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  UPDATE "users" SET "login_count" = 34, "last_login_at" = '2015-03-09 14:36:27.660497', "current_login_at" = '2015-03-09 16:36:27.875638', "last_request_at" = '2015-03-09 16:36:27.876206', "perishable_token" = 'TlMvIgVJB1u45LyKP5ER', "updated_at" = '2015-03-09 16:36:27.883199' WHERE "users"."id" = 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "versions" ("created_at", "event", "item_id", "item_type", "object", "object_changes", "related_id", "related_type", "whodunnit") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["created_at", Mon, 09 Mar 2015 16:36:27 UTC +00:00], ["event", "update"], ["item_id", 1], ["item_type", "User"], ["object", "---\nusername: johnny1\nemail: lenna@hudson.name\nfirst_name: Kaia\nlast_name: Lemke\ntitle: Director\ncompany: Abbott and Sons\nalt_email: annabel@hackettswift.biz\nphone: \"(384)913-8278\"\nmobile: 772-787-3321\naim: \nyahoo: \ngoogle: \nskype: \npassword_hash: eaa779318db3bb8f0944437801478c84cc19a63978ec4879987fc24d859e2e3e683f55eb684a3fe233e54c03c51c7fd461e7c60ff07cf5e02fb4612ece756fdf\npassword_salt: JlETYNCGuU3gJ3L3gtQ5\npersistence_token: b85f46a02c105a1aa3a0a8f5413981de195996ef5f1c8d630d76f14600bc61ffe3750c9e96ab601a67a680ddd27ba93222280bf4b2dc9e1ea9a860e615f7a87a\nperishable_token: f74UdTBzNVVgG0V7DHW\nlast_request_at: 2015-03-09 15:36:27.660314000 Z\nlast_login_at: 2015-03-09 13:36:27.660578000 Z\ncurrent_login_at: 2015-03-09 14:36:27.660497000 Z\nlast_login_ip: 127.0.0.1\ncurrent_login_ip: 127.0.0.1\nlogin_count: 33\ndeleted_at: \ncreated_at: 2015-03-09 11:36:27.660944000 Z\nupdated_at: 2015-03-09 12:36:27.660863000 Z\nadmin: false\nsuspended_at: \nsingle_access_token: WxxD4J6uMGSuUVuwfXZM\nid: 1\n"], ["object_changes", "--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nlogin_count:\n- 33\n- 34\nlast_login_at:\n- 2015-03-09 13:36:27.660578000 Z\n- &1 2015-03-09 14:36:27.660497000 Z\ncurrent_login_at:\n- *1\n- 2015-03-09 16:36:27.875638044 Z\n"], ["related_id", nil], ["related_type", nil], ["whodunnit", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 22.6ms (ActiveRecord: 3.4ms)
+Started GET "/" for 127.0.0.1 at 2015-03-09 18:36:27 +0200
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2015-03-09 16:36:27.898755', "perishable_token" = '6SPrrySDd2YEp3DTG1f', "updated_at" = '2015-03-09 16:36:27.899548' WHERE "users"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPreference Load (0.9ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'locale' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mSetting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1
+  [1m[36mPreference Load (0.4ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_asset' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mPreference Load (0.3ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_event' AND "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mPreference Load (0.3ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_user' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mPreference Load (0.3ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_duration' AND "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mVersion Load (1.2ms)[0m  [1mSELECT "versions".* FROM "versions" WHERE (versions.created_at >= '2015-03-07 16:36:27.922967') ORDER BY created_at DESC LIMIT 500[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36mSetting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'account_category_color' LIMIT 1[0m
+  [1m[35mSetting Load (0.3ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'opportunity_stage_color' LIMIT 1
+  [1m[36mSetting Load (0.3ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'task_category_color' LIMIT 1[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/shared/_inline_styles.html.haml (8.0ms)
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "tasks" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1) AND (completed_at IS NULL)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "opportunities" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1) AND (opportunities.stage != 'won') AND (opportunities.stage != 'lost')[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "accounts" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/home/_activity.html.haml (5.2ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/shared/_export.html.haml (2.6ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/home/index.html.haml within layouts/application (34.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/layouts/_jumpbox.html.haml (5.3ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/layouts/_header.html.haml (8.4ms)
+  [1m[35mSetting Load (0.7ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'tabs' LIMIT 1
+  [1m[36mList Load (0.6ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."user_id" IS NULL[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/lists/_sidebar.html.haml (15.5ms)
+  [1m[35mList Load (0.4ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."user_id" = 1
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/lists/_sidebar.html.haml (7.9ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/lists/_lists.html.haml (27.2ms)
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "versions" WHERE "versions"."whodunnit" = '1' AND "versions"."item_type" IN ('Account', 'Campaign', 'Contact', 'Lead', 'Opportunity') LIMIT 20 OFFSET 0) subquery_for_count [0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/shared/_recently.html.haml (6.5ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/layouts/_sidebar.html.haml (40.6ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/layouts/_tabbed.html.haml (52.7ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/layouts/_about.html.haml (0.9ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-6a81860c5547/app/views/layouts/_footer.html.haml (1.4ms)
+  [1m[35mSetting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'base_url' LIMIT 1
+Completed 200 OK in 154.1ms (Views: 100.2ms | ActiveRecord: 15.2ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Creating scope :except. Overwriting existing method User.except.
+  [1m[36mFieldGroup Load (1.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Account' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.4ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Campaign' ORDER BY position
+  [1m[36mFieldGroup Load (0.4ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Contact' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Lead' ORDER BY position
+  [1m[36mFieldGroup Load (0.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Opportunity' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Task' ORDER BY position
+  [1m[36mCustomField Load (1.3ms)[0m  [1mSELECT "fields".* FROM "fields" WHERE "fields"."type" IN ('CustomField', 'CustomFieldPair', 'CustomFieldDatePair', 'CustomFieldDatetimePair') ORDER BY "fields"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'dedric_kiehn@graham.co.uk' LIMIT 1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'asha1' LIMIT 1[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."perishable_token" = 'a6efc244024463f0d030' LIMIT 1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."persistence_token" = '23034a1e987e8e8d507c047335ef59e7561dadee90f72b62b00b729c689d7867d19fc2242c3324932cf220db0a236749d25608fee968a59167feb8b8ef1b9be1' LIMIT 1[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."single_access_token" = 'cIuIpyE6z3QDZh3XFxd' LIMIT 1
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "users" ("admin", "aim", "alt_email", "company", "created_at", "current_login_at", "current_login_ip", "deleted_at", "email", "first_name", "google", "last_login_at", "last_login_ip", "last_name", "last_request_at", "login_count", "mobile", "password_hash", "password_salt", "perishable_token", "persistence_token", "phone", "single_access_token", "skype", "suspended_at", "title", "updated_at", "username", "yahoo") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29) RETURNING "id"[0m  [["admin", false], ["aim", nil], ["alt_email", "emelie.orn@doyle.name"], ["company", "Bashirian-Hoppe"], ["created_at", Mon, 09 Mar 2015 11:41:38 UTC +00:00], ["current_login_at", Mon, 09 Mar 2015 14:41:38 UTC +00:00], ["current_login_ip", "127.0.0.1"], ["deleted_at", nil], ["email", "dedric_kiehn@graham.co.uk"], ["first_name", "Arjun"], ["google", nil], ["last_login_at", Mon, 09 Mar 2015 13:41:38 UTC +00:00], ["last_login_ip", "127.0.0.1"], ["last_name", "Rosenbaum"], ["last_request_at", Mon, 09 Mar 2015 15:41:38 UTC +00:00], ["login_count", 26], ["mobile", "(689)867-5266"], ["password_hash", "135c393523c67e211bf903c4762f8b5b9927b938f6011511da32038947517f632d399599d26351f808070bff7e8ec69a665da8fc539b1bbaf04de588bbadac07"], ["password_salt", "jb77i0GTs9KAJZAwdJ9"], ["perishable_token", "ORjYgAEjWCV9RF6KR1SE"], ["persistence_token", "23034a1e987e8e8d507c047335ef59e7561dadee90f72b62b00b729c689d7867d19fc2242c3324932cf220db0a236749d25608fee968a59167feb8b8ef1b9be1"], ["phone", "163-408-4317 x2319"], ["single_access_token", "cIuIpyE6z3QDZh3XFxd"], ["skype", nil], ["suspended_at", nil], ["title", "Sales Manager"], ["updated_at", Mon, 09 Mar 2015 12:41:38 UTC +00:00], ["username", "asha1"], ["yahoo", nil]]
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "versions" ("created_at", "event", "item_id", "item_type", "object", "object_changes", "related_id", "related_type", "whodunnit") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["created_at", Mon, 09 Mar 2015 16:41:38 UTC +00:00], ["event", "create"], ["item_id", 1], ["item_type", "User"], ["object", nil], ["object_changes", "--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nusername:\n- ''\n- asha1\nemail:\n- ''\n- dedric_kiehn@graham.co.uk\nfirst_name:\n- \n- Arjun\nlast_name:\n- \n- Rosenbaum\ntitle:\n- \n- Sales Manager\ncompany:\n- \n- Bashirian-Hoppe\nalt_email:\n- \n- emelie.orn@doyle.name\nphone:\n- \n- 163-408-4317 x2319\nmobile:\n- \n- \"(689)867-5266\"\npassword_hash:\n- ''\n- 135c393523c67e211bf903c4762f8b5b9927b938f6011511da32038947517f632d399599d26351f808070bff7e8ec69a665da8fc539b1bbaf04de588bbadac07\npassword_salt:\n- ''\n- jb77i0GTs9KAJZAwdJ9\npersistence_token:\n- ''\n- 23034a1e987e8e8d507c047335ef59e7561dadee90f72b62b00b729c689d7867d19fc2242c3324932cf220db0a236749d25608fee968a59167feb8b8ef1b9be1\ncurrent_login_at:\n- \n- 2015-03-09 14:41:38.891224735 Z\nlast_login_at:\n- \n- 2015-03-09 13:41:38.891358911 Z\nlast_login_ip:\n- \n- 127.0.0.1\ncurrent_login_ip:\n- \n- 127.0.0.1\nlogin_count:\n- 0\n- 26\nupdated_at:\n- \n- 2015-03-09 12:41:38.891923132 Z\ncreated_at:\n- \n- 2015-03-09 11:41:38.892160898 Z\nsingle_access_token:\n- \n- cIuIpyE6z3QDZh3XFxd\nid:\n- \n- 1\n"], ["related_id", nil], ["related_type", nil], ["whodunnit", nil]]
+  [1m[36m (3.5ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2015-03-09 18:41:38 +0200
+Processing by HomeController#index as HTML
+Redirected to http://www.example.com/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 4.7ms (ActiveRecord: 0.0ms)
+Started GET "/login" for 127.0.0.1 at 2015-03-09 18:41:39 +0200
+Processing by AuthenticationsController#new as HTML
+  [1m[35mSetting Load (0.8ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1
+  [1m[36mSetting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'user_signup' LIMIT 1[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/authentications/new.html.haml within layouts/application (12.8ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_header.html.haml (4.6ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_about.html.haml (6.4ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_footer.html.haml (10.1ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_tabless.html.haml (13.7ms)
+  [1m[35mSetting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'base_url' LIMIT 1
+Completed 200 OK in 61.9ms (Views: 56.1ms | ActiveRecord: 1.7ms)
+Started POST "/authentication" for 127.0.0.1 at 2015-03-09 18:41:39 +0200
+Processing by AuthenticationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authentication"=>{"username"=>"asha1", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mSetting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1[0m
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'asha1' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  UPDATE "users" SET "login_count" = 27, "last_login_at" = '2015-03-09 14:41:38.891224', "current_login_at" = '2015-03-09 16:41:39.113983', "last_request_at" = '2015-03-09 16:41:39.114493', "perishable_token" = 'luvsrKb2uF8OgcdIiZm', "updated_at" = '2015-03-09 16:41:39.122094' WHERE "users"."id" = 1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "versions" ("created_at", "event", "item_id", "item_type", "object", "object_changes", "related_id", "related_type", "whodunnit") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["created_at", Mon, 09 Mar 2015 16:41:39 UTC +00:00], ["event", "update"], ["item_id", 1], ["item_type", "User"], ["object", "---\nusername: asha1\nemail: dedric_kiehn@graham.co.uk\nfirst_name: Arjun\nlast_name: Rosenbaum\ntitle: Sales Manager\ncompany: Bashirian-Hoppe\nalt_email: emelie.orn@doyle.name\nphone: 163-408-4317 x2319\nmobile: \"(689)867-5266\"\naim: \nyahoo: \ngoogle: \nskype: \npassword_hash: 135c393523c67e211bf903c4762f8b5b9927b938f6011511da32038947517f632d399599d26351f808070bff7e8ec69a665da8fc539b1bbaf04de588bbadac07\npassword_salt: jb77i0GTs9KAJZAwdJ9\npersistence_token: 23034a1e987e8e8d507c047335ef59e7561dadee90f72b62b00b729c689d7867d19fc2242c3324932cf220db0a236749d25608fee968a59167feb8b8ef1b9be1\nperishable_token: ORjYgAEjWCV9RF6KR1SE\nlast_request_at: 2015-03-09 15:41:38.890917000 Z\nlast_login_at: 2015-03-09 13:41:38.891358000 Z\ncurrent_login_at: 2015-03-09 14:41:38.891224000 Z\nlast_login_ip: 127.0.0.1\ncurrent_login_ip: 127.0.0.1\nlogin_count: 26\ndeleted_at: \ncreated_at: 2015-03-09 11:41:38.892160000 Z\nupdated_at: 2015-03-09 12:41:38.891923000 Z\nadmin: false\nsuspended_at: \nsingle_access_token: cIuIpyE6z3QDZh3XFxd\nid: 1\n"], ["object_changes", "--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nlogin_count:\n- 26\n- 27\nlast_login_at:\n- 2015-03-09 13:41:38.891358000 Z\n- &1 2015-03-09 14:41:38.891224000 Z\ncurrent_login_at:\n- *1\n- 2015-03-09 16:41:39.113983268 Z\n"], ["related_id", nil], ["related_type", nil], ["whodunnit", nil]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 25.5ms (ActiveRecord: 3.5ms)
+Started GET "/" for 127.0.0.1 at 2015-03-09 18:41:39 +0200
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2015-03-09 16:41:39.138671', "perishable_token" = 'a1bZVqrbD77XIiGwpEq', "updated_at" = '2015-03-09 16:41:39.139875' WHERE "users"."id" = 1[0m
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPreference Load (1.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'locale' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mSetting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1
+  [1m[36mPreference Load (0.4ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_asset' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mPreference Load (0.3ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_event' AND "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mPreference Load (0.3ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_user' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mPreference Load (0.3ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_duration' AND "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mVersion Load (5.8ms)[0m  [1mSELECT "versions".* FROM "versions" WHERE (versions.created_at >= '2015-03-07 16:41:39.171796') ORDER BY created_at DESC LIMIT 500[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36mSetting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'account_category_color' LIMIT 1[0m
+  [1m[35mSetting Load (0.3ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'opportunity_stage_color' LIMIT 1
+  [1m[36mSetting Load (0.3ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'task_category_color' LIMIT 1[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_inline_styles.html.haml (8.1ms)
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "tasks" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1) AND (completed_at IS NULL)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "opportunities" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1) AND (opportunities.stage != 'won') AND (opportunities.stage != 'lost')[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "accounts" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/home/_activity.html.haml (8.1ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_export.html.haml (3.3ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/home/index.html.haml within layouts/application (40.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_jumpbox.html.haml (6.9ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_header.html.haml (9.5ms)
+  [1m[35mSetting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'tabs' LIMIT 1
+  [1m[36mList Load (0.8ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."user_id" IS NULL[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_sidebar.html.haml (19.7ms)
+  [1m[35mList Load (0.6ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."user_id" = 1
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_sidebar.html.haml (9.6ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_lists.html.haml (33.9ms)
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "versions" WHERE "versions"."whodunnit" = '1' AND "versions"."item_type" IN ('Account', 'Campaign', 'Contact', 'Lead', 'Opportunity') LIMIT 20 OFFSET 0) subquery_for_count [0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_recently.html.haml (6.7ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_sidebar.html.haml (47.3ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_tabbed.html.haml (58.5ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_about.html.haml (1.2ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_footer.html.haml (1.8ms)
+  [1m[35mSetting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'base_url' LIMIT 1
+Completed 200 OK in 182.8ms (Views: 112.9ms | ActiveRecord: 21.0ms)
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Creating scope :except. Overwriting existing method User.except.
+  [1m[36mFieldGroup Load (1.0ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Account' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.5ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Campaign' ORDER BY position
+  [1m[36mFieldGroup Load (0.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Contact' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.8ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Lead' ORDER BY position
+  [1m[36mFieldGroup Load (0.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Opportunity' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Task' ORDER BY position
+  [1m[36mCustomField Load (1.3ms)[0m  [1mSELECT "fields".* FROM "fields" WHERE "fields"."type" IN ('CustomField', 'CustomFieldPair', 'CustomFieldDatePair', 'CustomFieldDatetimePair') ORDER BY "fields"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.9ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'lon@ohara.us' LIMIT 1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'ida1' LIMIT 1[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."perishable_token" = '2c51f277e3d232243e8d' LIMIT 1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."persistence_token" = '2da62ad4e17034e716e7c6a532effc52863fb29dab76b8d785eed89fcfdcfd602228243148d75b8f9b7d5112702102853ad00845359409555e4dccd9013dfe09' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."single_access_token" = 'do3lS77zvv10voUAUu' LIMIT 1
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "users" ("admin", "aim", "alt_email", "company", "created_at", "current_login_at", "current_login_ip", "deleted_at", "email", "first_name", "google", "last_login_at", "last_login_ip", "last_name", "last_request_at", "login_count", "mobile", "password_hash", "password_salt", "perishable_token", "persistence_token", "phone", "single_access_token", "skype", "suspended_at", "title", "updated_at", "username", "yahoo") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29) RETURNING "id"[0m  [["admin", false], ["aim", nil], ["alt_email", "andy.lebsack@oreilly.com"], ["company", "Huels, Fisher and Erdman"], ["created_at", Mon, 09 Mar 2015 11:42:00 UTC +00:00], ["current_login_at", Mon, 09 Mar 2015 14:42:00 UTC +00:00], ["current_login_ip", "127.0.0.1"], ["deleted_at", nil], ["email", "lon@ohara.us"], ["first_name", "Kiel"], ["google", nil], ["last_login_at", Mon, 09 Mar 2015 13:42:00 UTC +00:00], ["last_login_ip", "127.0.0.1"], ["last_name", "Kling"], ["last_request_at", Mon, 09 Mar 2015 15:42:00 UTC +00:00], ["login_count", 78], ["mobile", "053-339-6277"], ["password_hash", "a871b1570bf458b4fbba70012c20719001de8013b0cd2bb7049f485158a5bde52fa1918d0b7cd1b9af20313f57bfeb0b75991c9d6e4542c26398ef95674112b6"], ["password_salt", "swYS9ZaRJdEmXs4pq8Rq"], ["perishable_token", "C7NHtAmGhz7v01PDpQ5p"], ["persistence_token", "2da62ad4e17034e716e7c6a532effc52863fb29dab76b8d785eed89fcfdcfd602228243148d75b8f9b7d5112702102853ad00845359409555e4dccd9013dfe09"], ["phone", "892.812.7036 x2478"], ["single_access_token", "do3lS77zvv10voUAUu"], ["skype", nil], ["suspended_at", nil], ["title", "Sales Manager"], ["updated_at", Mon, 09 Mar 2015 12:42:00 UTC +00:00], ["username", "ida1"], ["yahoo", nil]]
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "versions" ("created_at", "event", "item_id", "item_type", "object", "object_changes", "related_id", "related_type", "whodunnit") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["created_at", Mon, 09 Mar 2015 16:42:00 UTC +00:00], ["event", "create"], ["item_id", 1], ["item_type", "User"], ["object", nil], ["object_changes", "--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nusername:\n- ''\n- ida1\nemail:\n- ''\n- lon@ohara.us\nfirst_name:\n- \n- Kiel\nlast_name:\n- \n- Kling\ntitle:\n- \n- Sales Manager\ncompany:\n- \n- Huels, Fisher and Erdman\nalt_email:\n- \n- andy.lebsack@oreilly.com\nphone:\n- \n- 892.812.7036 x2478\nmobile:\n- \n- 053-339-6277\npassword_hash:\n- ''\n- a871b1570bf458b4fbba70012c20719001de8013b0cd2bb7049f485158a5bde52fa1918d0b7cd1b9af20313f57bfeb0b75991c9d6e4542c26398ef95674112b6\npassword_salt:\n- ''\n- swYS9ZaRJdEmXs4pq8Rq\npersistence_token:\n- ''\n- 2da62ad4e17034e716e7c6a532effc52863fb29dab76b8d785eed89fcfdcfd602228243148d75b8f9b7d5112702102853ad00845359409555e4dccd9013dfe09\ncurrent_login_at:\n- \n- 2015-03-09 14:42:00.507481699 Z\nlast_login_at:\n- \n- 2015-03-09 13:42:00.507574279 Z\nlast_login_ip:\n- \n- 127.0.0.1\ncurrent_login_ip:\n- \n- 127.0.0.1\nlogin_count:\n- 0\n- 78\nupdated_at:\n- \n- 2015-03-09 12:42:00.507870774 Z\ncreated_at:\n- \n- 2015-03-09 11:42:00.507957693 Z\nsingle_access_token:\n- \n- do3lS77zvv10voUAUu\nid:\n- \n- 1\n"], ["related_id", nil], ["related_type", nil], ["whodunnit", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2015-03-09 18:42:00 +0200
+Processing by HomeController#index as HTML
+Redirected to http://www.example.com/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 4.3ms (ActiveRecord: 0.0ms)
+Started GET "/login" for 127.0.0.1 at 2015-03-09 18:42:00 +0200
+Processing by AuthenticationsController#new as HTML
+  [1m[35mSetting Load (0.8ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1
+  [1m[36mSetting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'user_signup' LIMIT 1[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/authentications/new.html.haml within layouts/application (10.8ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_header.html.haml (4.1ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_about.html.haml (4.5ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_footer.html.haml (7.2ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_tabless.html.haml (9.8ms)
+  [1m[35mSetting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'base_url' LIMIT 1
+Completed 200 OK in 53.6ms (Views: 47.6ms | ActiveRecord: 1.8ms)
+Started POST "/authentication" for 127.0.0.1 at 2015-03-09 18:42:00 +0200
+Processing by AuthenticationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authentication"=>{"username"=>"ida1", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mSetting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1[0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'ida1' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  UPDATE "users" SET "login_count" = 79, "last_login_at" = '2015-03-09 14:42:00.507481', "current_login_at" = '2015-03-09 16:42:00.697461', "last_request_at" = '2015-03-09 16:42:00.697905', "perishable_token" = 'pypIj9kXEplpwg0GZTF', "updated_at" = '2015-03-09 16:42:00.704178' WHERE "users"."id" = 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "versions" ("created_at", "event", "item_id", "item_type", "object", "object_changes", "related_id", "related_type", "whodunnit") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["created_at", Mon, 09 Mar 2015 16:42:00 UTC +00:00], ["event", "update"], ["item_id", 1], ["item_type", "User"], ["object", "---\nusername: ida1\nemail: lon@ohara.us\nfirst_name: Kiel\nlast_name: Kling\ntitle: Sales Manager\ncompany: Huels, Fisher and Erdman\nalt_email: andy.lebsack@oreilly.com\nphone: 892.812.7036 x2478\nmobile: 053-339-6277\naim: \nyahoo: \ngoogle: \nskype: \npassword_hash: a871b1570bf458b4fbba70012c20719001de8013b0cd2bb7049f485158a5bde52fa1918d0b7cd1b9af20313f57bfeb0b75991c9d6e4542c26398ef95674112b6\npassword_salt: swYS9ZaRJdEmXs4pq8Rq\npersistence_token: 2da62ad4e17034e716e7c6a532effc52863fb29dab76b8d785eed89fcfdcfd602228243148d75b8f9b7d5112702102853ad00845359409555e4dccd9013dfe09\nperishable_token: C7NHtAmGhz7v01PDpQ5p\nlast_request_at: 2015-03-09 15:42:00.507241000 Z\nlast_login_at: 2015-03-09 13:42:00.507574000 Z\ncurrent_login_at: 2015-03-09 14:42:00.507481000 Z\nlast_login_ip: 127.0.0.1\ncurrent_login_ip: 127.0.0.1\nlogin_count: 78\ndeleted_at: \ncreated_at: 2015-03-09 11:42:00.507957000 Z\nupdated_at: 2015-03-09 12:42:00.507870000 Z\nadmin: false\nsuspended_at: \nsingle_access_token: do3lS77zvv10voUAUu\nid: 1\n"], ["object_changes", "--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nlogin_count:\n- 78\n- 79\nlast_login_at:\n- 2015-03-09 13:42:00.507574000 Z\n- &1 2015-03-09 14:42:00.507481000 Z\ncurrent_login_at:\n- *1\n- 2015-03-09 16:42:00.697461162 Z\n"], ["related_id", nil], ["related_type", nil], ["whodunnit", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 24.2ms (ActiveRecord: 3.4ms)
+Started GET "/" for 127.0.0.1 at 2015-03-09 18:42:00 +0200
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2015-03-09 16:42:00.720329', "perishable_token" = 'lAWeNsA4rAeGr0YJpLQB', "updated_at" = '2015-03-09 16:42:00.721164' WHERE "users"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPreference Load (0.8ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'locale' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mSetting Load (0.3ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1
+  [1m[36mPreference Load (0.3ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_asset' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mPreference Load (0.3ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_event' AND "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mPreference Load (0.3ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_user' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mPreference Load (0.3ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_duration' AND "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mVersion Load (1.2ms)[0m  [1mSELECT "versions".* FROM "versions" WHERE (versions.created_at >= '2015-03-07 16:42:00.743488') ORDER BY created_at DESC LIMIT 500[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36mSetting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'account_category_color' LIMIT 1[0m
+  [1m[35mSetting Load (0.3ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'opportunity_stage_color' LIMIT 1
+  [1m[36mSetting Load (0.3ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'task_category_color' LIMIT 1[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_inline_styles.html.haml (6.9ms)
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "tasks" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1) AND (completed_at IS NULL)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "opportunities" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1) AND (opportunities.stage != 'won') AND (opportunities.stage != 'lost')[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "accounts" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/home/_activity.html.haml (4.7ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_export.html.haml (2.7ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/home/index.html.haml within layouts/application (31.6ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_jumpbox.html.haml (5.1ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_header.html.haml (7.4ms)
+  [1m[35mSetting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'tabs' LIMIT 1
+  [1m[36mList Load (0.7ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."user_id" IS NULL[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_sidebar.html.haml (15.3ms)
+  [1m[35mList Load (0.6ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."user_id" = 1
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_sidebar.html.haml (8.1ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_lists.html.haml (27.0ms)
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "versions" WHERE "versions"."whodunnit" = '1' AND "versions"."item_type" IN ('Account', 'Campaign', 'Contact', 'Lead', 'Opportunity') LIMIT 20 OFFSET 0) subquery_for_count [0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_recently.html.haml (6.3ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_sidebar.html.haml (39.6ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_tabbed.html.haml (49.5ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_about.html.haml (0.9ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_footer.html.haml (1.6ms)
+  [1m[35mSetting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'base_url' LIMIT 1
+Completed 200 OK in 142.9ms (Views: 92.0ms | ActiveRecord: 15.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Creating scope :except. Overwriting existing method User.except.
+  [1m[36mFieldGroup Load (1.1ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Account' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Campaign' ORDER BY position
+  [1m[36mFieldGroup Load (0.7ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Contact' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.5ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Lead' ORDER BY position
+  [1m[36mFieldGroup Load (0.4ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Opportunity' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.4ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Task' ORDER BY position
+  [1m[36mCustomField Load (1.2ms)[0m  [1mSELECT "fields".* FROM "fields" WHERE "fields"."type" IN ('CustomField', 'CustomFieldPair', 'CustomFieldDatePair', 'CustomFieldDatetimePair') ORDER BY "fields"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.9ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'reta.koelpin@marvin.name' LIMIT 1
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'geraldine_koelpin1' LIMIT 1[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."perishable_token" = 'fde9cb2ba7d24416ba8d' LIMIT 1
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."persistence_token" = 'efb52c901bfc80d05ddd6a53f11b39efdc65be81feedae91100c104d5f6dd55fc74504ff313cd45d8da19acb8bf2c400b4c9da2099ce4eeb8279c52d13dc1622' LIMIT 1[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."single_access_token" = 'nOXkStVjbIpCngJxnbc' LIMIT 1
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "users" ("admin", "aim", "alt_email", "company", "created_at", "current_login_at", "current_login_ip", "deleted_at", "email", "first_name", "google", "last_login_at", "last_login_ip", "last_name", "last_request_at", "login_count", "mobile", "password_hash", "password_salt", "perishable_token", "persistence_token", "phone", "single_access_token", "skype", "suspended_at", "title", "updated_at", "username", "yahoo") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29) RETURNING "id"[0m  [["admin", false], ["aim", nil], ["alt_email", "taya_lebsack@kuhlmankilback.us"], ["company", "Schowalter, Kassulke and O'Keefe"], ["created_at", Mon, 09 Mar 2015 11:42:16 UTC +00:00], ["current_login_at", Mon, 09 Mar 2015 14:42:16 UTC +00:00], ["current_login_ip", "127.0.0.1"], ["deleted_at", nil], ["email", "reta.koelpin@marvin.name"], ["first_name", "Desiree"], ["google", nil], ["last_login_at", Mon, 09 Mar 2015 13:42:16 UTC +00:00], ["last_login_ip", "127.0.0.1"], ["last_name", "Barton"], ["last_request_at", Mon, 09 Mar 2015 15:42:16 UTC +00:00], ["login_count", 51], ["mobile", "1-310-064-1069"], ["password_hash", "bc8b1ffe7316049c4a0de343026a460830dcb55f855b06b74809caeaa4659452c42d62789cd4dd0dc031e4d6339f3a35ede89b8628342ec53a7c5d276985642d"], ["password_salt", "5vi2ERdM0tefW69bVKi"], ["perishable_token", "oqTt0ccY3zPfQAxOFu"], ["persistence_token", "efb52c901bfc80d05ddd6a53f11b39efdc65be81feedae91100c104d5f6dd55fc74504ff313cd45d8da19acb8bf2c400b4c9da2099ce4eeb8279c52d13dc1622"], ["phone", "138-680-0853 x6383"], ["single_access_token", "nOXkStVjbIpCngJxnbc"], ["skype", nil], ["suspended_at", nil], ["title", "Executive Assistant"], ["updated_at", Mon, 09 Mar 2015 12:42:16 UTC +00:00], ["username", "geraldine_koelpin1"], ["yahoo", nil]]
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "versions" ("created_at", "event", "item_id", "item_type", "object", "object_changes", "related_id", "related_type", "whodunnit") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["created_at", Mon, 09 Mar 2015 16:42:16 UTC +00:00], ["event", "create"], ["item_id", 1], ["item_type", "User"], ["object", nil], ["object_changes", "--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nusername:\n- ''\n- geraldine_koelpin1\nemail:\n- ''\n- reta.koelpin@marvin.name\nfirst_name:\n- \n- Desiree\nlast_name:\n- \n- Barton\ntitle:\n- \n- Executive Assistant\ncompany:\n- \n- Schowalter, Kassulke and O'Keefe\nalt_email:\n- \n- taya_lebsack@kuhlmankilback.us\nphone:\n- \n- 138-680-0853 x6383\nmobile:\n- \n- 1-310-064-1069\npassword_hash:\n- ''\n- bc8b1ffe7316049c4a0de343026a460830dcb55f855b06b74809caeaa4659452c42d62789cd4dd0dc031e4d6339f3a35ede89b8628342ec53a7c5d276985642d\npassword_salt:\n- ''\n- 5vi2ERdM0tefW69bVKi\npersistence_token:\n- ''\n- efb52c901bfc80d05ddd6a53f11b39efdc65be81feedae91100c104d5f6dd55fc74504ff313cd45d8da19acb8bf2c400b4c9da2099ce4eeb8279c52d13dc1622\ncurrent_login_at:\n- \n- 2015-03-09 14:42:16.635704153 Z\nlast_login_at:\n- \n- 2015-03-09 13:42:16.635823043 Z\nlast_login_ip:\n- \n- 127.0.0.1\ncurrent_login_ip:\n- \n- 127.0.0.1\nlogin_count:\n- 0\n- 51\nupdated_at:\n- \n- 2015-03-09 12:42:16.636197443 Z\ncreated_at:\n- \n- 2015-03-09 11:42:16.636302944 Z\nsingle_access_token:\n- \n- nOXkStVjbIpCngJxnbc\nid:\n- \n- 1\n"], ["related_id", nil], ["related_type", nil], ["whodunnit", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2015-03-09 18:42:16 +0200
+Processing by HomeController#index as HTML
+Redirected to http://www.example.com/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 4.5ms (ActiveRecord: 0.0ms)
+Started GET "/login" for 127.0.0.1 at 2015-03-09 18:42:16 +0200
+Processing by AuthenticationsController#new as HTML
+  [1m[35mSetting Load (0.8ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1
+  [1m[36mSetting Load (0.7ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'user_signup' LIMIT 1[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/authentications/new.html.haml within layouts/application (11.8ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_header.html.haml (4.7ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_about.html.haml (4.7ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_footer.html.haml (7.6ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_tabless.html.haml (9.8ms)
+  [1m[35mSetting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'base_url' LIMIT 1
+Completed 200 OK in 54.1ms (Views: 48.4ms | ActiveRecord: 2.1ms)
+Started POST "/authentication" for 127.0.0.1 at 2015-03-09 18:42:16 +0200
+Processing by AuthenticationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authentication"=>{"username"=>"geraldine_koelpin1", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mSetting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1[0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'geraldine_koelpin1' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  UPDATE "users" SET "login_count" = 52, "last_login_at" = '2015-03-09 14:42:16.635704', "current_login_at" = '2015-03-09 16:42:16.829757', "last_request_at" = '2015-03-09 16:42:16.830316', "perishable_token" = 'mFUrhj2OLSp7wgiqZtt', "updated_at" = '2015-03-09 16:42:16.837053' WHERE "users"."id" = 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "versions" ("created_at", "event", "item_id", "item_type", "object", "object_changes", "related_id", "related_type", "whodunnit") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["created_at", Mon, 09 Mar 2015 16:42:16 UTC +00:00], ["event", "update"], ["item_id", 1], ["item_type", "User"], ["object", "---\nusername: geraldine_koelpin1\nemail: reta.koelpin@marvin.name\nfirst_name: Desiree\nlast_name: Barton\ntitle: Executive Assistant\ncompany: Schowalter, Kassulke and O'Keefe\nalt_email: taya_lebsack@kuhlmankilback.us\nphone: 138-680-0853 x6383\nmobile: 1-310-064-1069\naim: \nyahoo: \ngoogle: \nskype: \npassword_hash: bc8b1ffe7316049c4a0de343026a460830dcb55f855b06b74809caeaa4659452c42d62789cd4dd0dc031e4d6339f3a35ede89b8628342ec53a7c5d276985642d\npassword_salt: 5vi2ERdM0tefW69bVKi\npersistence_token: efb52c901bfc80d05ddd6a53f11b39efdc65be81feedae91100c104d5f6dd55fc74504ff313cd45d8da19acb8bf2c400b4c9da2099ce4eeb8279c52d13dc1622\nperishable_token: oqTt0ccY3zPfQAxOFu\nlast_request_at: 2015-03-09 15:42:16.635497000 Z\nlast_login_at: 2015-03-09 13:42:16.635823000 Z\ncurrent_login_at: 2015-03-09 14:42:16.635704000 Z\nlast_login_ip: 127.0.0.1\ncurrent_login_ip: 127.0.0.1\nlogin_count: 51\ndeleted_at: \ncreated_at: 2015-03-09 11:42:16.636302000 Z\nupdated_at: 2015-03-09 12:42:16.636197000 Z\nadmin: false\nsuspended_at: \nsingle_access_token: nOXkStVjbIpCngJxnbc\nid: 1\n"], ["object_changes", "--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nlogin_count:\n- 51\n- 52\nlast_login_at:\n- 2015-03-09 13:42:16.635823000 Z\n- &1 2015-03-09 14:42:16.635704000 Z\ncurrent_login_at:\n- *1\n- 2015-03-09 16:42:16.829757510 Z\n"], ["related_id", nil], ["related_type", nil], ["whodunnit", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 23.7ms (ActiveRecord: 3.1ms)
+Started GET "/" for 127.0.0.1 at 2015-03-09 18:42:16 +0200
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.7ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2015-03-09 16:42:16.853034', "perishable_token" = 'KNFwaRe1bF5Sg41yhB86', "updated_at" = '2015-03-09 16:42:16.853965' WHERE "users"."id" = 1[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPreference Load (0.9ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'locale' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mSetting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1
+  [1m[36mPreference Load (0.4ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_asset' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mPreference Load (0.3ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_event' AND "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mPreference Load (0.4ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_user' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mPreference Load (0.4ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_duration' AND "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mVersion Load (1.3ms)[0m  [1mSELECT "versions".* FROM "versions" WHERE (versions.created_at >= '2015-03-07 16:42:16.876462') ORDER BY created_at DESC LIMIT 500[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36mSetting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'account_category_color' LIMIT 1[0m
+  [1m[35mSetting Load (0.3ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'opportunity_stage_color' LIMIT 1
+  [1m[36mSetting Load (0.3ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'task_category_color' LIMIT 1[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_inline_styles.html.haml (7.8ms)
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "tasks" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1) AND (completed_at IS NULL)
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "opportunities" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1) AND (opportunities.stage != 'won') AND (opportunities.stage != 'lost')[0m
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "accounts" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/home/_activity.html.haml (5.5ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_export.html.haml (2.8ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/home/index.html.haml within layouts/application (34.2ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_jumpbox.html.haml (5.0ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_header.html.haml (7.6ms)
+  [1m[35mSetting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'tabs' LIMIT 1
+  [1m[36mList Load (0.7ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."user_id" IS NULL[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_sidebar.html.haml (17.8ms)
+  [1m[35mList Load (0.5ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."user_id" = 1
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_sidebar.html.haml (8.1ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_lists.html.haml (29.5ms)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "versions" WHERE "versions"."whodunnit" = '1' AND "versions"."item_type" IN ('Account', 'Campaign', 'Contact', 'Lead', 'Opportunity') LIMIT 20 OFFSET 0) subquery_for_count [0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_recently.html.haml (7.8ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_sidebar.html.haml (43.0ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_tabbed.html.haml (52.4ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_about.html.haml (0.9ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_footer.html.haml (1.5ms)
+  [1m[35mSetting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'base_url' LIMIT 1
+Completed 200 OK in 147.5ms (Views: 97.7ms | ActiveRecord: 15.4ms)
+  [1m[36m (1.7ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Creating scope :except. Overwriting existing method User.except.
+  [1m[36mFieldGroup Load (1.0ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Account' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.4ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Campaign' ORDER BY position
+  [1m[36mFieldGroup Load (0.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Contact' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.3ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Lead' ORDER BY position
+  [1m[36mFieldGroup Load (0.3ms)[0m  [1mSELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Opportunity' ORDER BY position[0m
+  [1m[35mFieldGroup Load (0.5ms)[0m  SELECT "field_groups".* FROM "field_groups" WHERE "field_groups"."klass_name" = 'Task' ORDER BY position
+  [1m[36mCustomField Load (1.2ms)[0m  [1mSELECT "fields".* FROM "fields" WHERE "fields"."type" IN ('CustomField', 'CustomFieldPair', 'CustomFieldDatePair', 'CustomFieldDatetimePair') ORDER BY "fields"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (1.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'libby@mante.name' LIMIT 1
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'mervin1' LIMIT 1[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."perishable_token" = 'f852024553135117c481' LIMIT 1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."persistence_token" = '397262c084e3ea7e3dd02041f6d9e35c4691438a832a0ad4915b7921ae368396421cd5d6a317a007a1a3e7e4e79b1601745a6ff55bd856e2af1427071a94b712' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."single_access_token" = 'HRipYlEkExPAyQazrFZc' LIMIT 1
+  [1m[36mSQL (2.3ms)[0m  [1mINSERT INTO "users" ("admin", "aim", "alt_email", "company", "created_at", "current_login_at", "current_login_ip", "deleted_at", "email", "first_name", "google", "last_login_at", "last_login_ip", "last_name", "last_request_at", "login_count", "mobile", "password_hash", "password_salt", "perishable_token", "persistence_token", "phone", "single_access_token", "skype", "suspended_at", "title", "updated_at", "username", "yahoo") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29) RETURNING "id"[0m  [["admin", false], ["aim", nil], ["alt_email", "marie_kovacek@streich.com"], ["company", "Streich Inc"], ["created_at", Mon, 09 Mar 2015 11:43:05 UTC +00:00], ["current_login_at", Mon, 09 Mar 2015 14:43:05 UTC +00:00], ["current_login_ip", "127.0.0.1"], ["deleted_at", nil], ["email", "libby@mante.name"], ["first_name", "Monica"], ["google", nil], ["last_login_at", Mon, 09 Mar 2015 13:43:05 UTC +00:00], ["last_login_ip", "127.0.0.1"], ["last_name", "Rutherford"], ["last_request_at", Mon, 09 Mar 2015 15:43:05 UTC +00:00], ["login_count", 91], ["mobile", "(358)106-0886"], ["password_hash", "0d617b2519897bbaa112158fdb048c6465b5ac4ebb9234d5362e7a322ae2c7b8af2c9acc91ab2b4a6811e77a425d9fc9ab41f855da6f7dc14192acfe35b4f6e9"], ["password_salt", "KA8G8Kp8OrLJociqBbzn"], ["perishable_token", "CiFcu7mQk0IYL4OcA7S"], ["persistence_token", "397262c084e3ea7e3dd02041f6d9e35c4691438a832a0ad4915b7921ae368396421cd5d6a317a007a1a3e7e4e79b1601745a6ff55bd856e2af1427071a94b712"], ["phone", "1-221-128-4124"], ["single_access_token", "HRipYlEkExPAyQazrFZc"], ["skype", nil], ["suspended_at", nil], ["title", "Marketing Manager"], ["updated_at", Mon, 09 Mar 2015 12:43:05 UTC +00:00], ["username", "mervin1"], ["yahoo", nil]]
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "versions" ("created_at", "event", "item_id", "item_type", "object", "object_changes", "related_id", "related_type", "whodunnit") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["created_at", Mon, 09 Mar 2015 16:43:05 UTC +00:00], ["event", "create"], ["item_id", 1], ["item_type", "User"], ["object", nil], ["object_changes", "--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nusername:\n- ''\n- mervin1\nemail:\n- ''\n- libby@mante.name\nfirst_name:\n- \n- Monica\nlast_name:\n- \n- Rutherford\ntitle:\n- \n- Marketing Manager\ncompany:\n- \n- Streich Inc\nalt_email:\n- \n- marie_kovacek@streich.com\nphone:\n- \n- 1-221-128-4124\nmobile:\n- \n- \"(358)106-0886\"\npassword_hash:\n- ''\n- 0d617b2519897bbaa112158fdb048c6465b5ac4ebb9234d5362e7a322ae2c7b8af2c9acc91ab2b4a6811e77a425d9fc9ab41f855da6f7dc14192acfe35b4f6e9\npassword_salt:\n- ''\n- KA8G8Kp8OrLJociqBbzn\npersistence_token:\n- ''\n- 397262c084e3ea7e3dd02041f6d9e35c4691438a832a0ad4915b7921ae368396421cd5d6a317a007a1a3e7e4e79b1601745a6ff55bd856e2af1427071a94b712\ncurrent_login_at:\n- \n- 2015-03-09 14:43:05.924883437 Z\nlast_login_at:\n- \n- 2015-03-09 13:43:05.924968795 Z\nlast_login_ip:\n- \n- 127.0.0.1\ncurrent_login_ip:\n- \n- 127.0.0.1\nlogin_count:\n- 0\n- 91\nupdated_at:\n- \n- 2015-03-09 12:43:05.925383503 Z\ncreated_at:\n- \n- 2015-03-09 11:43:05.925468518 Z\nsingle_access_token:\n- \n- HRipYlEkExPAyQazrFZc\nid:\n- \n- 1\n"], ["related_id", nil], ["related_type", nil], ["whodunnit", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2015-03-09 18:43:05 +0200
+Processing by HomeController#index as HTML
+Redirected to http://www.example.com/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 5.0ms (ActiveRecord: 0.0ms)
+Started GET "/login" for 127.0.0.1 at 2015-03-09 18:43:06 +0200
+Processing by AuthenticationsController#new as HTML
+  [1m[35mSetting Load (0.9ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1
+  [1m[36mSetting Load (0.4ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'user_signup' LIMIT 1[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/authentications/new.html.haml within layouts/application (12.0ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_header.html.haml (4.6ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_about.html.haml (4.5ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_footer.html.haml (7.8ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_tabless.html.haml (10.3ms)
+  [1m[35mSetting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'base_url' LIMIT 1
+Completed 200 OK in 56.4ms (Views: 49.6ms | ActiveRecord: 1.9ms)
+Started POST "/authentication" for 127.0.0.1 at 2015-03-09 18:43:06 +0200
+Processing by AuthenticationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authentication"=>{"username"=>"mervin1", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mSetting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'mervin1' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  UPDATE "users" SET "login_count" = 92, "last_login_at" = '2015-03-09 14:43:05.924883', "current_login_at" = '2015-03-09 16:43:06.126620', "last_request_at" = '2015-03-09 16:43:06.127068', "perishable_token" = 'zodT0sAvjnzhUhi9yHF', "updated_at" = '2015-03-09 16:43:06.134275' WHERE "users"."id" = 1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "versions" ("created_at", "event", "item_id", "item_type", "object", "object_changes", "related_id", "related_type", "whodunnit") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["created_at", Mon, 09 Mar 2015 16:43:06 UTC +00:00], ["event", "update"], ["item_id", 1], ["item_type", "User"], ["object", "---\nusername: mervin1\nemail: libby@mante.name\nfirst_name: Monica\nlast_name: Rutherford\ntitle: Marketing Manager\ncompany: Streich Inc\nalt_email: marie_kovacek@streich.com\nphone: 1-221-128-4124\nmobile: \"(358)106-0886\"\naim: \nyahoo: \ngoogle: \nskype: \npassword_hash: 0d617b2519897bbaa112158fdb048c6465b5ac4ebb9234d5362e7a322ae2c7b8af2c9acc91ab2b4a6811e77a425d9fc9ab41f855da6f7dc14192acfe35b4f6e9\npassword_salt: KA8G8Kp8OrLJociqBbzn\npersistence_token: 397262c084e3ea7e3dd02041f6d9e35c4691438a832a0ad4915b7921ae368396421cd5d6a317a007a1a3e7e4e79b1601745a6ff55bd856e2af1427071a94b712\nperishable_token: CiFcu7mQk0IYL4OcA7S\nlast_request_at: 2015-03-09 15:43:05.924695000 Z\nlast_login_at: 2015-03-09 13:43:05.924968000 Z\ncurrent_login_at: 2015-03-09 14:43:05.924883000 Z\nlast_login_ip: 127.0.0.1\ncurrent_login_ip: 127.0.0.1\nlogin_count: 91\ndeleted_at: \ncreated_at: 2015-03-09 11:43:05.925468000 Z\nupdated_at: 2015-03-09 12:43:05.925383000 Z\nadmin: false\nsuspended_at: \nsingle_access_token: HRipYlEkExPAyQazrFZc\nid: 1\n"], ["object_changes", "--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nlogin_count:\n- 91\n- 92\nlast_login_at:\n- 2015-03-09 13:43:05.924968000 Z\n- &1 2015-03-09 14:43:05.924883000 Z\ncurrent_login_at:\n- *1\n- 2015-03-09 16:43:06.126620708 Z\n"], ["related_id", nil], ["related_type", nil], ["whodunnit", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 24.4ms (ActiveRecord: 3.6ms)
+Started GET "/" for 127.0.0.1 at 2015-03-09 18:43:06 +0200
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2015-03-09 16:43:06.150547', "perishable_token" = 'HyiqruEmAB3IWmLSAI7K', "updated_at" = '2015-03-09 16:43:06.151470' WHERE "users"."id" = 1[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPreference Load (0.9ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'locale' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mSetting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'locale' LIMIT 1
+  [1m[36mPreference Load (0.5ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_asset' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mPreference Load (0.4ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_event' AND "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mPreference Load (0.4ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_user' AND "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mPreference Load (0.3ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."name" = 'activity_duration' AND "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mVersion Load (1.5ms)[0m  [1mSELECT "versions".* FROM "versions" WHERE (versions.created_at >= '2015-03-07 16:43:06.173738') ORDER BY created_at DESC LIMIT 500[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36mSetting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'account_category_color' LIMIT 1[0m
+  [1m[35mSetting Load (0.3ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'opportunity_stage_color' LIMIT 1
+  [1m[36mSetting Load (0.3ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."name" = 'task_category_color' LIMIT 1[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_inline_styles.html.haml (7.6ms)
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "tasks" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1) AND (completed_at IS NULL)
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "opportunities" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1) AND (opportunities.stage != 'won') AND (opportunities.stage != 'lost')[0m
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "accounts" WHERE ((user_id = 1 AND assigned_to IS NULL) OR assigned_to = 1)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/home/_activity.html.haml (5.5ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_export.html.haml (2.9ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/home/index.html.haml within layouts/application (34.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_jumpbox.html.haml (4.9ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_header.html.haml (7.4ms)
+  [1m[35mSetting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'tabs' LIMIT 1
+  [1m[36mList Load (0.8ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."user_id" IS NULL[0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_sidebar.html.haml (15.4ms)
+  [1m[35mList Load (0.5ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."user_id" = 1
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_sidebar.html.haml (8.1ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/lists/_lists.html.haml (27.4ms)
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "versions" WHERE "versions"."whodunnit" = '1' AND "versions"."item_type" IN ('Account', 'Campaign', 'Contact', 'Lead', 'Opportunity') LIMIT 20 OFFSET 0) subquery_for_count [0m
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/shared/_recently.html.haml (6.2ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_sidebar.html.haml (39.9ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_tabbed.html.haml (50.1ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_about.html.haml (0.9ms)
+  Rendered /home/damien/.rvm/gems/ruby-2.1.0@crm/bundler/gems/fat_free_crm-66261859369b/app/views/layouts/_footer.html.haml (1.6ms)
+  [1m[35mSetting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."name" = 'base_url' LIMIT 1
+Completed 200 OK in 146.5ms (Views: 96.3ms | ActiveRecord: 15.4ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
